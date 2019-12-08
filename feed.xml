@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jessica Downey</title>
+    <description>Jessica is an interaction designer that 💘 to build new products.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 24 May 2018 16:33:36 -0700</pubDate>
+    <lastBuildDate>Thu, 24 May 2018 16:33:36 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>GoFetch.ca</title>
+        <description>&lt;p&gt;GoFetch.ca aims to make Dog Ownership simple. With GoFetch, dog parents can discover, book, and manage personalized care for their dogs, including Boarding, Doggy Daycare, House Sitting and Dog Walking.&lt;/p&gt;
+
+&lt;p&gt;I joined the team in November 2016 and started by redesigning the GoFetch IOS application into its second version, to diversify the service offering and create a unified experience across all platforms.&lt;/p&gt;
+
+&lt;p&gt;I created a brand identity for GoFetch and maintain all UI style guides for web and iOS platforms as well as create wireframes and UI for all new features.&lt;/p&gt;
+
+&lt;p&gt;For all of GoFetch.ca’s new features, I source the product requirements, create high level concepts and prototypes all the way to high fidelity wireframes to feed into the development cycle.
+I have led the concept and launch of a new sitter onboarding, sitter dashboard, instant book and walk requests and improved sitter calendar.&lt;/p&gt;
+
+&lt;p&gt;Programs : Sketch / Illustrator / InvisionApp&lt;/p&gt;
+
+&lt;p&gt;Scripting : HTML / SASS / CSS / JS / REACT&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/ios%20web%20android/2017/09/04/gofetch.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ios%20web%20android/2017/09/04/gofetch.html</guid>
+        
+        
+        <category>iOS Web Android</category>
+        
+      </item>
+    
+      <item>
+        <title>Ally by Amped Wireless</title>
+        <description>&lt;p&gt;Wi-Fi routers are ubiquitous home equipement yet many customers just don’t know of all the features they offer or can’t use them.&lt;/p&gt;
+
+&lt;p&gt;While at AVG Technologies’ Innovation group, I’up worked on simplifying how Wi-Fi routers work to enable people to use parental controls and device management. Blocking Wi-Fi for selected devices or banning selected websites are features that users are keenly interested in but give up on using when faced with tech jargon such as “IP” and “blacklist”.&lt;/p&gt;
+
+&lt;p&gt;To make setting up a router as easy and fast as possible, I mapped and benchmarked leading manufacturer routers’ setup flows to highlight user pain points and create a setup flow with less steps and actions than the competition.&lt;/p&gt;
+
+&lt;p&gt;I created the information architecture and User Flows for the Ally by Amped Wireless software including the device setup and the user flows, creating user stories and collaborating with developers to ensure software quality.&lt;/p&gt;
+
+&lt;p&gt;The Wi-Fi management app software we created has been used by Amped Wireless’s Ally product line.&lt;/p&gt;
+
+&lt;p&gt;The Ally apps are available on iOS and Android.&lt;/p&gt;
+
+&lt;p&gt;As a app evolution project, I’ve worked on building a conversational UI concept that maps devices to people and simplifies those features. By designing a conversation script, an answer shortcuts UI and testing it using Amazon Mechanical turk, we built an MVP and got very positive impressions from potential users.&lt;/p&gt;
+
+&lt;p&gt;Programs : Sketch / Illustrator&lt;/p&gt;
+
+&lt;p&gt;Scripting : Flash Action Script 3.0&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/ios/2017/09/04/ally.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ios/2017/09/04/ally.html</guid>
+        
+        
+        <category>iOS</category>
+        
+      </item>
+    
+      <item>
+        <title>Koala</title>
+        <description>&lt;p&gt;Koala is a free sleep cycle monitor &amp;amp; smart alarm app. It tracks your sleep patterns and wakes you up at the right time, so you can have more energy throughout the day. It was to created to measure engagement for an IOT solution to improve sleep and well-being and refine the tracking library allowing to assess sleep quality.
+Based on the product requirements, I created a minimum viable product flow of the application to scope out the minimum number of features, screens and the global navigation. From this list, I’ve created several UI concepts for the screen that the users would interact with the most : the cards screen. From our test the card concept was prefered by users thus I designed the application around a card navigation.
+To allow users to gain knowledge about their night of sleep I developed interactive timelines that allows users to glimpse at specific events or time of their night and learn what has happened and which sleep stage they were in.
+Then I collaborated with the engineering team on the design and implementation of the application by providing design specifications, clickable prototypes (Invisionapp) and interactive animation prototypes (Framer).
+The application has been released on Google Play. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Programs : Sketch, Framer Studio, Invisionapp.&lt;/p&gt;
+
+&lt;p&gt;Scripting : Coffeescript&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/android/2016/01/16/koala.html</link>
+        <guid isPermaLink="true">http://localhost:4000/android/2016/01/16/koala.html</guid>
+        
+        
+        <category>Android</category>
+        
+      </item>
+    
+      <item>
+        <title>Siemens SLIM</title>
+        <description>&lt;p&gt;syngo® Lab Inventory Manager* (sLIM) leverages cloud-based technology and wireless radio frequency identification (RFID) to enable real-time, automated inventory management across multiple laboratories.
+As an interaction design consultant with Siemens Corporate Research, I participated in requirement gathering sessions with stakeholders to refine thesyngo Lab Inventory Manager software’s high level product definition and create the information architecture. I created high level wireframes for the product, an updated look &amp;amp; feel for the Siemens Diagnostics software applications &amp;amp; produced the assets for development integration.
+	◦	Requirements elicitation
+	◦	Navigation and wireframes creation
+	◦	Application of brand guidelines through the visual design.
+	◦	Visual design for desktop and mobile application.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/healthcare/2016/01/15/slim.html</link>
+        <guid isPermaLink="true">http://localhost:4000/healthcare/2016/01/15/slim.html</guid>
+        
+        
+        <category>Healthcare</category>
+        
+      </item>
+    
+  </channel>
+</rss>
