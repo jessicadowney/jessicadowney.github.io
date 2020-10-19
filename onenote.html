@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Jessica Downey | Microsoft OneNote</title>
-    <meta name="description" content="Jessica is an interaction designer that 💘 to build new products.">
+    <meta name="description" content="Jessica is an interaction designer living in Vancouver, BC, Canada.">
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://localhost:4000/images/favicon/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/favicon/apple-touch-icon-114x114.png" />
@@ -35,6 +35,8 @@
 
     <link rel="canonical" href="http://localhost:4000/onenote">
     <script src="http://localhost:4000/js/modernizr.custom.js" async></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
 </head>
 
@@ -94,40 +96,115 @@
 <div class="cs-grey-center">
 	<div class="flex-container wrapper">
 		<div class="cs-overview-col"><h2>Overview</h2>Microsoft OneNote is a note-taking program for free-form information gathering and multi-user collaboration. It gathers users' notes, drawings, screen clippings, and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network.<br />
-As a member of the OneNote design team, I collaborated with product managers and engineers on new features of Microsoft OneNote.<br />
+As a member of the OneNote design team, I collaborated with product managers and engineers on new features of Microsoft OneNote. I've worked on the design of upcoming features for Microsoft OneNote.<br /><br /> The nature of most of this upcoming work being confidential, presented here is a smaller feature that has shipped in 2019.<br />
 
 </div>
 		<div class="cs-overview-col"><h2>My role</h2>Product Design<br /><br />
-			<h2>Results</h2>I've worked on the design of upcoming features for Microsoft OneNote. The nature of this work is confidential as it is yet to be launched.<br />
+			<h2>Results</h2>Cloud attachments insertion prompts are now available on OneNote Universal Windows Platform and Mac.<br />
 		</div>
 	</div>
 </div>
 
-<!-- div class="cs-white-center">
+<div class="cs-white-center">
 	<div class="wrapper paragraph">
-		<h2>Challenge : Inserting cloud files</h2><br />
+		<h2>Challenge : File insertion prompt</h2><br />
 
 
 		<p class="description">
-			I was brought on a team with a project manager and three engineers to add the capacity to insert the cloud attachments function to a notebook page in OneNote UWP (Universal Windows Platform) and Mac. This feature already existed in OneNote 2016 and was highly sought by OneNote users.<br /><br />
-			Storing your file attachments in the cloud instead of your notebook keeps your notes more manageable and lets you collaborate with others more easily.<br /><br />
-			I started by analyzing how this attachment is done on other Microsoft products such as Microsoft Outlook and Microsoft Word on their desktop versions as well as their Online versions.<br /><br />
-		</p>
+			I was brought on a team with a project manager and three engineers to add the capacity to insert the cloud attachments function to a notebook page in OneNote UWP (Universal Windows Platform) and Mac. This feature already existed in OneNote 2016 and was highly sought by OneNote users. Storing your file attachments in the cloud instead of your notebook keeps your notes more manageable and lets you collaborate with others more easily.<br /><br />
+			A previous crew had achieved the function of uploading attachments to OneDrive and this new crew formed to enable users to decide how to attach the files they want to insert in their notebook page.
+			<br /><br />
+
+			I collected examples of similar types of modal within OneNote's different platforms and throughout Microsoft user interface components libraries.<br /><br />
+
+	</p>
+
+<p class="cs-caption">Modal visual collection for files insertion prompt</p>
+		<a href="images/CF-ModalInspiration.png"><img class="cs-images" src="images/CF-ModalInspiration.png" alt="Modals throughout Microsoft OneNote and Microsoft Fabric" title="Modal visual collection for files insertion prompt" /></a>
+
 
 		<h3>The solution</h3>
-		<p class="description">
-			When you choose to insert a file into your notes, OneNote now displays a modal that allows to “Upload to OneDrive and insert link", "Insert as attachment" or "Insert as printout".
-
+<p class="description">
+				I started by analyzing how this file insertion prompt is done on other Microsoft products such as Microsoft Outlook and Microsoft Word on their desktop versions as well as their Online versions. 
+			After analyzing how this type of upload is done throughout Microsoft products, I mapped the different use cases based on the type of file selected by the user.<br /><br />
 		</p>
+
+		<object data="images/CloudAttachmentsPrompt.pdf" type="application/pdf" width="100%" height="640px">
+		    <embed src="images/CloudAttachmentsPrompt.pdf" />
+		        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="images/gf-ftu-sitter-application.pdf">Download PDF</a>.</p>
+		    &lt;/embed&gt;
+		</object>
+<br /><br />
+<p class="description">
+
+			I followed the Office standard of a modal that appears right after the user selects a file to insert. Based on the user's file type, the modal displays either two or three options to pick from. <br /><br />
+
+			○ When a user chooses to insert a PDF document into their notes, OneNote would display a modal that allows to “Upload to OneDrive and insert link", "Insert as attachment" or "Insert as printout".<br /><br />		
+
+			○ When a user chooses to insert a Microsoft Office Word, Excel or PowerPoint document into their notes, OneNote would display a modal that allows to “Upload to OneDrive and insert link", "Insert as attachment" or "Insert as printout" with a disclaimer that inserting as a printout will use an online Microsoft service.<br /><br />
+ 
+			○ When a user chooses to insert another type of file into their notes, OneNote would display a modal that allows to “Upload to OneDrive and insert link" or "Insert as attachment".<br /><br />
+
+			○ When a user chooses to insert a mix of files into their notes, OneNote would display a modal that allows to “Upload to OneDrive and insert link" or "Insert as attachment".<br /><br />	
+
+			</p>
+
+
+<p class="description">
+
+			I explored different options for the file insertion prompts that would follow the Microsoft design standards as well as allow to add a disclaimer under the printout option.
+		</p>
+
+<p class="cs-caption">Files insertion prompt design explorations</p>
+
+
+		<a href="images/UWP-CF-designExplorations.png"><img class="cs-images" src="images/UWP-CF-designExplorations.png" alt="OneNote cloud attachments files insertion prompt modal explorations" title="OneNote cloud attachments files insertion prompt modal explorations" /></a>
+
+
+		<h3>Implementation</h3>
+
+<p class="description">
+
+
+			I tested the final design by localizing the prompts into German and French to test string lengths.
+		</p>
+
+
+<p class="cs-caption">Files insertion prompt final visual design</p>
+
+
+		<a href="images/UWP-CF-3options-WXP-disclaimer-EN.png"><img class="cs-images" src="images/UWP-CF-3options-WXP-disclaimer-EN.png" alt="OneNote cloud attachments files insertion prompt for a Microsoft Office Word, Excel or PowerPoint document in English" title="OneNote cloud attachments files insertion prompt in English" /></a>
+
+		<a href="images/UWP-CF-3options-WXP-disclaimer-DE.png"><img class="cs-images" src="images/UWP-CF-3options-WXP-disclaimer-DE.png" alt="OneNote cloud attachments files insertion prompt for a Microsoft Office Word, Excel or PowerPoint document in German" title="OneNote cloud attachments files insertion prompt in German" /></a>
+
+		<a href="images/UWP-CF-3options-WXP-disclaimer-FR.png"><img class="cs-images" src="images/UWP-CF-3options-WXP-disclaimer-FR.png" alt="OneNote cloud attachments files insertion prompt for a Microsoft Office Word, Excel or PowerPoint document in French" title="OneNote cloud attachments files insertion prompt in French" /></a>
+
+		<a href="images/UWP-CF-2options-plural.png"><img class="cs-images" src="images/UWP-CF-2options-plural.png" alt="OneNote cloud attachments files insertion prompt in English for several documents" title="OneNote cloud attachments files insertion prompt in English - 2 options" /></a>
+
+
+		<a href="images/UWP-CF-disclaimer.png"><img class="cs-images" src="images/UWP-CF-disclaimer.png" alt="OneNote cloud attachments as a printout disclaimer modal" title="OneNote cloud attachments as a printout disclaimer modal" /></a>
+
+
+
+
+<p class="cs-caption">Redlines specifications for files insertion prompt</p>
+		<a href="images/CF-3-Disclaimer-Redlining-Asset.png"><img class="cs-images" src="images/CF-3-Disclaimer-Redlining-Asset.png" alt="Redlines specifications for files insertion prompt" title="Redlines specifications for files insertion prompt" /></a>
+
+<p class="description">
+
+			I created the redlines, assets and the accessibility and high contrast specifications to share with the engineers for implementation.<br /><br />
+</p>
+
+<p class="cs-caption">High contrast specifications for files insertion prompt</p>
+		<a href="images/CF-highcontrast.png"><img class="cs-images" src="images/CF-highcontrast.png" alt="High contrast specs for file insertion prompts" title="High contrast specifications for files insertion prompt" /></a>
 		<br />
 	
-	
+<p class="cs-caption">Mac version of the files insertion prompt</p>
+		<a href="images/MAC-CF-v2-alt5.png"><img class="cs-images" src="images/MAC-CF-v2-alt5.png" alt="Mac version of the files insertion prompt" title="Mac version of the files insertion prompt" /></a>	
 
 
 </div>
-
-	</div>
-!-->
+</div>
 
 
 
@@ -180,7 +257,7 @@ As a member of the OneNote design team, I collaborated with product managers and
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p style="color:black">Jessica is an interaction designer that 💘 to build new products.</p>
+        <p style="color:black">Jessica is an interaction designer living in Vancouver, BC, Canada.</p>
       </div>
     </div>
 
@@ -199,8 +276,10 @@ As a member of the OneNote design team, I collaborated with product managers and
 
 </script>
 
-<script type="text/javascript" src="/js/lightbox.js" async></script>
+<script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
+</body>
+</html>
     
 
 
