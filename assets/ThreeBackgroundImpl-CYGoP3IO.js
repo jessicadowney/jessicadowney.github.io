@@ -1,4 +1,4 @@
-import{r as mi,d as vl,j as xl}from"./index-CanJCrjD.js";/**
+import{r as mi,d as vl,j as xl}from"./index-aR3SpBuI.js";/**
  * @license
  * Copyright 2010-2025 Three.js Authors
  * SPDX-License-Identifier: MIT
